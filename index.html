@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>c4tac</title>
+</head>
+<body>
+    <div class="main_welc_backimage">
+        <!--Navigation bar-->
+        <div id="navmain"></div>
+        <script>
+            $(function(){
+              $("#navmain").load("lib.html/nav.html");
+            });
+        </script>
+        <!--end of Navigation bar-->
+                      
+        <!----Typed.JS---->
+        <!-- Element to contain animated typing -->
+        <div class="maintext">
+            <h2 style="color: white;">Hello I <span class="type_text_css" id="type_text_js"></span></h2>
+            <script>
+              var typed = new Typed('#type_text_js', {
+                strings: ['Am c4tac', 'Use Arch BTW'],
+                typeSpeed: 75,
+                loop: true
+              });
+            </script>
+        </div>
+        <!--End Typed.JS-->
+        <button class="more_info_bnt_class">More Info</button>
+    </div>
+</body>
+</html>

@@ -1,0 +1,37 @@
+html, body {
+    height: 100%;
+    background-color: black;
+    scroll-behavior: smooth;
+    overflow: hidden;
+}
+
+
+.main_welc_backimage {
+    position: relative;
+    background-image: url(/media/backgournd_images/img1_keyboard.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.maintext {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+.type_text_css {
+    color: orange;
+}
+
+.more_info_bnt_class {
+    position: absolute;
+    top: 57%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}

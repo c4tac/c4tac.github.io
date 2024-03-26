@@ -1,0 +1,54 @@
+@import url(prop/nav_prop.css);
+
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    border-bottom: 3px solid #333333;   /*Underline the Nav Bar */
+    margin: 0px;
+    justify-content: flex-end;  /* Get all Content to right end */
+}
+
+nav .main_logo {
+    color: var(--bar-items-color);
+    margin-right: auto; /* Keeps the logo aligned to the left */
+    font-size: large;
+    font-style: bold;
+}
+
+nav .main_logo:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+}
+
+li {
+    display: inline-block; /* Change float to inline-block */
+    margin-left: 34px;
+    margin-right: 16px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: larger;
+    color: var(--bar-items-color);
+    transition: 1s;
+}
+
+nav a:hover {
+    text-decoration: underline;
+    font-size: calc(larger + 6px);
+}
+
+/* Sticky Class Designed to provide Sticky Property to the Navbar using JavaScript */
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
