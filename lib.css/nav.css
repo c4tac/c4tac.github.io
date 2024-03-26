@@ -32,6 +32,7 @@ li {
     display: inline-block; /* Change float to inline-block */
     margin-left: 34px;
     margin-right: 16px;
+    font-style: bold;
 }
 
 nav a {
@@ -44,6 +45,7 @@ nav a {
 nav a:hover {
     text-decoration: underline;
     font-size: calc(larger + 6px);
+    transition: 1s;
 }
 
 /* Sticky Class Designed to provide Sticky Property to the Navbar using JavaScript */
@@ -52,3 +54,8 @@ nav a:hover {
     top: 0;
     width: 100%;
   }
+
+
+  @media screen and (max-width: 768px) {
+    
+}
